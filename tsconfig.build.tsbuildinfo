@@ -548,7 +548,7 @@
       "incremental": true,
       "removeComments": true,
       "sourceMap": true,
-      "target": 1,
+      "target": 2,
       "configFilePath": "./tsconfig.build.json"
     },
     "referencedMap": {
