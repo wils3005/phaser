@@ -1,5 +1,3 @@
-import "phaser";
-
 const {
   constructor: { name },
   location: { pathname },
@@ -19,16 +17,14 @@ class Scene extends Phaser.Scene {
   }
 }
 
-const config = {
+new Phaser.Game({
   type: Phaser.AUTO,
   backgroundColor: "#125555",
   width: 800,
   height: 600,
   parent: "main",
   scene: Scene,
-};
-
-new Phaser.Game(config);
+});
 
 function log(error?: Error): void {
   const { stack } = new Error();

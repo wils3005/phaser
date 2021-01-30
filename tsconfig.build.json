@@ -3,9 +3,14 @@
   "files": ["main.ts"],
   "compilerOptions": {
     "declaration": true,
+    "diagnostics": true,
     "emitDecoratorMetadata": true,
     "incremental": true,
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "module": "ESNext",
     "noEmit": false,
+    "noEmitOnError": true,
     "removeComments": true,
     "sourceMap": true,
     "target": "ESNext"

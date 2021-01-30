@@ -1,4 +1,3 @@
-import "phaser";
 const { constructor: { name }, location: { pathname }, } = globalThis;
 class Scene extends Phaser.Scene {
     constructor() {
@@ -9,15 +8,14 @@ class Scene extends Phaser.Scene {
     create() {
     }
 }
-const config = {
+new Phaser.Game({
     type: Phaser.AUTO,
     backgroundColor: "#125555",
     width: 800,
     height: 600,
     parent: "main",
     scene: Scene,
-};
-new Phaser.Game(config);
+});
 function log(error) {
     const { stack } = new Error();
     const a = stack?.split("\n") || [];
@@ -33,4 +31,5 @@ function onWindowLoad() {
     log();
 }
 globalThis.addEventListener("load", onWindowLoad);
+export {};
 //# sourceMappingURL=main.js.map

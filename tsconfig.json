@@ -10,13 +10,13 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
     "lib": ["DOM", "ESNext", "WebWorker"],
-    "module": "ESNext",
     "moduleResolution": "node",
     "noEmit": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "typeRoots": ["./node_modules/phaser/types"],
+    "types": ["Phaser"]
   }
 }

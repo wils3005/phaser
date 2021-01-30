@@ -1,2 +1,1 @@
-import "phaser";
 export {};
