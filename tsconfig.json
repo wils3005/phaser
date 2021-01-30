@@ -12,7 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "lib": ["DOM", "ESNext", "WebWorker"],
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
     "noEmit": true,
     "resolveJsonModule": true,

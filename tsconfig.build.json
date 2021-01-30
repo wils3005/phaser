@@ -8,6 +8,6 @@
     "noEmit": false,
     "removeComments": true,
     "sourceMap": true,
-    "target": "ES6"
+    "target": "ESNext"
   }
 }

@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("phaser");
+import "phaser";
 const { constructor: { name }, location: { pathname }, } = globalThis;
 class Scene extends Phaser.Scene {
     constructor() {
@@ -21,16 +19,15 @@ const config = {
 };
 new Phaser.Game(config);
 function log(error) {
-    var _a;
     const { stack } = new Error();
-    const a = (stack === null || stack === void 0 ? void 0 : stack.split("\n")) || [];
+    const a = stack?.split("\n") || [];
     const s = a[1];
     const message = {
         globalThis: name,
         location: pathname,
-        function: String((_a = /at (.+) /.exec(s)) === null || _a === void 0 ? void 0 : _a.pop()),
+        function: String(/at (.+) /.exec(s)?.pop()),
     };
-    error ? console.error(Object.assign(Object.assign({}, message), { error })) : console.info(message);
+    error ? console.error({ ...message, error }) : console.info(message);
 }
 function onWindowLoad() {
     log();

@@ -537,7 +537,7 @@
         "lib.esnext.d.ts",
         "lib.webworker.d.ts"
       ],
-      "module": 1,
+      "module": 99,
       "moduleResolution": 2,
       "noEmit": false,
       "resolveJsonModule": true,
@@ -548,7 +548,7 @@
       "incremental": true,
       "removeComments": true,
       "sourceMap": true,
-      "target": 2,
+      "target": 99,
       "configFilePath": "./tsconfig.build.json"
     },
     "referencedMap": {
