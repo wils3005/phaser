@@ -2,10 +2,10 @@
   "name": "@wilsjs/phaser",
   "private": true,
   "scripts": {
-    "build": "parcel build ./src/index.html",
+    "prebuild": "rimraf dist/",
+    "build": "parcel build src/index.html",
     "eslint": "eslint --format compact --fix --report-unused-disable-directives .",
-    "start": "parcel serve ./src/index.html",
-    "tsc": "tsc",
+    "start": "parcel serve src/index.html",
     "watch": "false"
   },
   "devDependencies": {
@@ -23,6 +23,7 @@
     "phaser": "^3.52.0",
     "pnpm": "^5.16.0",
     "prettier": "2.2.1",
+    "rimraf": "^3.0.2",
     "typescript": "4.1.3"
   }
 }
