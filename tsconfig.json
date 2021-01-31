@@ -1,4 +1,6 @@
 {
+  "include": ["**/*.js", "**/*.ts"],
+  "exclude": [".parcel-cache/", "dist/", "node_modules/"],
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
