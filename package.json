@@ -5,10 +5,11 @@
     "build": "parcel build ./src/index.html",
     "eslint": "eslint --format compact --fix --report-unused-disable-directives .",
     "start": "parcel serve ./src/index.html",
-    "tsc": "tsc --build tsconfig.build.json",
+    "tsc": "tsc",
     "watch": "false"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
     "@types/node": "14.14.22",
     "@types/prettier": "2.1.6",
     "@typescript-eslint/eslint-plugin": "4.14.1",

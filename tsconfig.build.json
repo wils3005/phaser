@@ -2,17 +2,7 @@
   "extends": "./tsconfig.json",
   "include": ["./src/**/*.ts"],
   "compilerOptions": {
-    "declaration": true,
-    "diagnostics": true,
-    "emitDecoratorMetadata": true,
-    "incremental": true,
-    "listEmittedFiles": true,
-    "listFiles": true,
-    "module": "ESNext",
-    "noEmit": false,
-    "noEmitOnError": true,
     "outDir": "public/",
-    "removeComments": true,
     "sourceMap": true,
     "target": "ES6"
   }
