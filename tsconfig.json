@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "typeRoots": ["./node_modules/peerjs", "./node_modules/phaser/types"],
-    "types": ["Peer", "Phaser"]
+    "typeRoots": ["./node_modules/phaser/types"],
+    "types": ["Phaser"]
   }
 }

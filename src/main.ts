@@ -1,5 +1,4 @@
-// import Peer from "peerjs";
-// import Phaser from "phaser";
+import Peer from "peerjs";
 
 const {
   constructor: { name },
