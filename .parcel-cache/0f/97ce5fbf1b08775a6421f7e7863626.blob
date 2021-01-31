@@ -1,1 +1,0 @@
-{"mappings":"AAAA;EACE,yDAAmC;EACnC,sBAAsB;EACtB,4BAA4B;EAC5B,aAAa;EACb,YAAY;AACd","sources":["./src/main.css"],"sourcesContent":["body {\n  background-image: url(\"clover.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  height: 100vh;\n  width: 100vw;\n}\n"],"names":[],"version":3,"file":"main.6b30c847.css.map","sourceRoot":"/__parcel_source_root/"}
