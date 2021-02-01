@@ -24,6 +24,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "typeRoots": ["node_modules/", "types/"]
   }
 }
